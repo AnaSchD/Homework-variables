@@ -41,6 +41,16 @@ public class Main {
         double conversationKg = totalBreakfastWeight / oneKgGr;
         System.out.println("Вес переведенной еды из граммов в килограммы " + conversationKg + " кг");
 //Задание 4
+    byte kg = 7;
+    short gr = 1000;
+    int kgInGr = kg*gr;
+    System.out.println("Вес, который необходимо скинуть в граммах " + kgInGr + " гр");
+    int oneDayGr = 250;
+    int oneDayGrm = 500;
+    int howManyDays = kgInGr / oneDayGr;
+    int howManyDaysTwo = kgInGr / oneDayGrm;
+    System.out.println(" Столько дней потребуется, если спортсмен будет худеть по 250 гр - " + howManyDays + " дней");
+    System.out.println("Столько дней потребуется, если спортсмен будет худеть по 500 гр - " + howManyDaysTwo + " дней");
 
 
 
